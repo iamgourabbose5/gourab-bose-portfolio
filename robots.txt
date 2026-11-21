@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://iamgourabbose5.github.io/gourab-bose-portfolio/sitemap.xml

@@ -1,27 +1,40 @@
 # Gourab Bose — SEO Portfolio Website
 
-A responsive personal portfolio built with HTML, CSS and vanilla JavaScript. It includes the supplied profile photograph and a downloadable copy of the supplied CV.
+A responsive, SEO-themed personal portfolio built with HTML, CSS and vanilla JavaScript.
 
-## Preview
-Open `index.html` in a browser. Internet access is needed for the Google Fonts import; the page remains usable with system-font fallbacks if fonts cannot load.
-
-## Included files
-- `index.html` — page content, metadata and Person structured data
-- `styles.css` — responsive layout and visual styling
+## Files
+- `index.html` — semantic page structure, metadata, Open Graph tags and Person structured data
+- `styles.css` — responsive design, SEO dashboard visuals, charts, tool cards and layout
 - `script.js` — mobile navigation and current-year footer
-- `assets/gourab-bose-profile.png` — supplied profile photograph
-- `assets/Gourab-Bose-CV.pdf` — supplied CV, linked from the page
+- `robots.txt` — crawler access instructions
+- `sitemap.xml` — sitemap for the portfolio homepage
+- `assets/gourab-bose-profile.png` — profile photograph
+- `assets/Gourab-Bose-CV.pdf` — downloadable CV
+- `assets/favicon.svg` — site icon
 
-## Publish free with GitHub Pages
-1. Sign in to GitHub and create a **public** repository, for example `gourab-bose-portfolio`.
-2. Upload `index.html`, `styles.css`, `script.js`, and the complete `assets` folder. Keep the folder structure unchanged.
-3. Open the repository's **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Choose branch `main` and folder `/ (root)`, then Save.
-6. After GitHub Pages publishes the site, the address will be `https://YOUR-USERNAME.github.io/gourab-bose-portfolio/`.
+## Preview locally
+Open `index.html` in a modern browser. Google Fonts are loaded online; system font fallbacks remain available.
 
-## Accuracy notes
-- The two case studies are anonymised to respect the NDA statement in the supplied portfolio document.
-- Portfolio case-study metrics follow the supplied portfolio document. Dates and labels are retained where stated.
-- The CV is included as supplied; replace it in `assets/` whenever you update your CV.
-- Do not add client names, URLs or unverified performance claims without checking NDA and source data.
+## Publish / update on GitHub Pages
+1. Open the existing repository: `iamgourabbose5/gourab-bose-portfolio`.
+2. Choose **Add file → Upload files**.
+3. Upload all files and the `assets` folder from this package, keeping the folder structure. The `index.html`, `styles.css`, `script.js`, `robots.txt` and `sitemap.xml` files must be in the repository root.
+4. Commit the changes to the `main` branch.
+5. GitHub Pages should redeploy automatically. Check **Settings → Pages** if deployment is not enabled.
+
+Expected URL: https://iamgourabbose5.github.io/gourab-bose-portfolio/
+
+## SEO details included
+- Descriptive title and meta description
+- Canonical URL and robots meta directive
+- Open Graph and Twitter social-sharing metadata
+- Person JSON-LD structured data
+- Semantic headings and page sections
+- Descriptive image alt text
+- `robots.txt` and `sitemap.xml`
+
+## Important notes
+- Client names, URLs and brand identifiers are intentionally withheld under NDA.
+- The dashboard visual in the hero is a designed portfolio graphic, not a live Google Search Console or GA4 integration. Metrics are labelled as reported portfolio results and include their reporting periods.
+- Tool cards reflect platforms mentioned in the supplied CV and SEO portfolio. They are not endorsements by Google or the other tool vendors.
+- Review the site after deployment and make sure you are comfortable with the CV PDF and email address being publicly accessible in a public GitHub repository.
